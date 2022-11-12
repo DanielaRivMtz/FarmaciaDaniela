@@ -17,7 +17,7 @@ function EliminarPromoModal() {
                             <div className="modal-footer">
                                 <form>
                                     <input type="hidden" id="id" name="id"/>
-                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>{" "}
+                                    <button type="button" className="btn btn-secondary me-2" data-bs-dismiss="modal">Cancelar</button>
                                     <button type="submit" className="btn btn-danger" name="eliminar">Eliminar</button>
                                 </form>
                             </div>

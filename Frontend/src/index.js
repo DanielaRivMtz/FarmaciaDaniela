@@ -7,15 +7,21 @@ import reportWebVitals from './reportWebVitals';
 //import Carrusel from './Components/Carrusel';
 //import Cartas from './Components/Cartas';
 //import Footer from './Components/Footer';
-import Medicamentos from './Components/Medicamentos';
+//import MedicamentosEditar from './Components/MedicamentosEditar';
+//import Medicamentos from './Components/Medicamentos';
+//import Promociones from './Components/Promociones';
+//import PromocionesEditar from './Components/PromocionesEditar';
+//import Principal from './Components/Principal';
+import Login from './Components/Login';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Medicamentos />
+    <Login />
   </React.StrictMode>
 );
 

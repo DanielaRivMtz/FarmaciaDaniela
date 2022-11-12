@@ -38,7 +38,7 @@ function EditarProductoModal() {
                             <input className="invisible" type="text" id="id" name="id" />
 
                             <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>{" "}
+                                <button type="button" className="btn btn-secondary me-2" data-bs-dismiss="modal">Cerrar</button>
                                 <button type="submit" className="btn btn-success" name="registrar">Guardar</button>
                             </div>
                         </form>
