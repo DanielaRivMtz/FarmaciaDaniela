@@ -10,7 +10,7 @@ mimeTypes = require('mime-types')
 const storage = multer.diskStorage({
     destination:'assets/images',
     filename: function(req,file,cb){
-        cb("",`${req.body.codigo?req.body.codigo:titulo}.${mimeTypes.extension(file.mimetype)}`)
+        cb("",`${req.body.codigo?req.body.codigo:req.body.titulo}.${mimeTypes.extension(file.mimetype)}`)
     }
 })
 const upload = multer({ storage:storage })

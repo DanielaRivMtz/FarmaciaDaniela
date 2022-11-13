@@ -9,6 +9,9 @@ const mostrar = async (req,res)=>{
         let final = initial + 2
         console.log(productos)
         let filterRes= productos.slice(initial,final)
+        filterRes.forEach((element,i) => {
+            filterRes[i].img= __dirname+'/assets/images/'+element.codigo+'.jpg'          
+        });
         res.send({data: filterRes})
 
     }catch(err){
