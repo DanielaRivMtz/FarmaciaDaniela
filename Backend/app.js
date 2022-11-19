@@ -8,6 +8,7 @@ const PORT = 3000
 
 app.use(cors())
 app.use(express.json())
+app.use('/assets', express.static('assets'));
 
 app.use('/api', require('./routes/routes'))
 

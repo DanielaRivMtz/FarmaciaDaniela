@@ -8,7 +8,7 @@ const multer  = require('multer')
 mimeTypes = require('mime-types')
 
 const storage = multer.diskStorage({
-    destination:'assets/images',
+    destination:'assets',
     filename: function(req,file,cb){
         cb("",`${req.body.codigo?req.body.codigo:req.body.titulo}.${mimeTypes.extension(file.mimetype)}`)
     }
